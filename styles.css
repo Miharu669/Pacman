@@ -1,6 +1,7 @@
-html {
-    background-image: url(images/pacman.png) no-repeat center center fixed;
-    background-position: center;
-    background-size: cover;
-    min-height: 75%;
-   }
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+  
