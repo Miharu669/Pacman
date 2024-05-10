@@ -6,7 +6,12 @@
   }
   
   body {
-    background-image: url("images/fondo.jpg");
+    background-image: url("assets/images/fondo.jpg");
+    background-color: black;
     background-size: cover;
     background-position: center;
+    background-position: absolute;
+    top: 50%;
+    left: 50%;
+   
 }
