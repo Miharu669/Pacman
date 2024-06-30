@@ -1,0 +1,20 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miharu669/Pacman.git"
+  },
+  "author": "vero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miharu669/Pacman/issues"
+  },
+  "homepage": "https://github.com/Miharu669/Pacman#readme"
+}

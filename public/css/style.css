@@ -1,0 +1,88 @@
+
+@font-face {
+  font-family: 'PacFont';
+  src: url('../assets/fonts/PAC-FONT.TTF') format('truetype');
+}
+html{
+  heigth: 100vh;
+  width:100%;
+}
+ .fantasmito, .iconpacman, .cherry {
+  width: auto;
+  height: 100px; 
+ }
+.pacman {
+  position: absolute;
+  width: 100px; 
+  height: 100px;
+}
+
+.pacmanCont {
+  position: relative;
+  width: 800px;  
+  height: 500px; 
+  background-color: none; 
+}
+
+body {
+  background-image: url("/public/assets/images/fondo.jpg");
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#logoText, #logo {
+  width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#cherry {
+  content: url("../assets/images/cherry.png");
+  display: none; 
+}
+
+#fantasmito {
+  content: url("../assets/images/fantasmito.png");
+  display: none; 
+}
+
+.gameOver {
+  position: absolute;
+  font-family: "PacFont", sans-serif;
+  color: #febd11;
+  font-size: 100px;
+  display: none;
+ 
+}
+
+.points {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width:100%;
+  height: 0.1px;
+  font-size: 2.5rem;
+  color: white; 
+  text-align: right;
+  float: right
+}
