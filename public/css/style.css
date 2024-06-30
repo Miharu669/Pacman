@@ -25,7 +25,7 @@ html{
 }
 
 body {
-  background-image: url("/public/assets/images/fondo.jpg");
+  background-image: url('../../public/assets/images/fondo.jpg');
   background-color: black;
   background-size: cover;
   background-position: center;
